@@ -1,4 +1,4 @@
-package jm.task.core.jdbc.dao;
+/*package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.util.Util;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
-    private static final Connection conn = Util.getConnection();
+    private final Connection conn = Util.getConnection();
 
     public UserDaoJDBCImpl() {
 
@@ -97,4 +97,4 @@ public class UserDaoJDBCImpl implements UserDao {
             e.printStackTrace();
         }
     }
-}
+}*/
